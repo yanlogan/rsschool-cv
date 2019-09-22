@@ -1,0 +1,68 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+header .header-bg {
+	height: 500px;
+	background-image: url(https://images.unsplash.com/photo-1555099962-4199c345e5dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+header .hero {
+	position: relative;
+}
+
+header .hero-avatar {
+	display: inline-block;
+	position: absolute;
+	top: -175px;
+	width: 250px;
+	height: 250px;
+	border: 5px solid #fff;
+	border-radius: 50%;
+	background-image: url(../img/avatar_full.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	-webkit-box-shadow: 0px 0px 45px -20px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 45px -20px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 45px -20px rgba(0,0,0,0.75);
+}
+
+header .hero-text {
+	display: inline-block;
+	position: absolute;
+	top: -120px;
+	left: 275px;
+	color: #fff;
+	text-shadow: 0px 0px 10px rgba(0,0,0,0.75);
+}
+
+header .hero-text__name {
+	font-size: 50px;
+	font-weight: 900;
+}
+
+header .hero-text__occupation {
+	font-size: 24px;
+	font-weight: 500;
+}
+
+
+@media (max-width: 565px) {
+	.container {
+		max-width: 95%;
+	}
+}
