@@ -60,6 +60,13 @@ header .hero-text__occupation {
 	font-weight: 500;
 }
 
+footer {
+	padding: 40px 0;
+	background-color: #3B3B3B;
+	color: #FFF;
+	text-align: center;
+}
+
 
 @media (max-width: 565px) {
 	.container {
