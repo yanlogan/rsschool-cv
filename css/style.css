@@ -14,6 +14,15 @@ html, body, h1, h2, p {
 	box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+	color: var(--link-color);
+}
+
+a:visited, a:active {
+	color: var(--link-secondary-color);
+}
+
 .container {
 	max-width: 1024px;
 	margin: 0 auto;
@@ -68,6 +77,43 @@ header .hero-text__name {
 header .hero-text__occupation {
 	font-size: 24px;
 	font-weight: 500;
+}
+
+.section {
+	padding: 50px 0;
+}
+
+.section:nth-child(2n) {
+	background-color: #EEE;
+}
+
+.section-title {
+	margin-bottom: 30px;
+	font-size: 36px;
+	color: var(--primary-color);
+}
+
+.contacts-list {
+	padding: 0;
+	list-style: none;
+	line-height: 1.75em;
+}
+
+.contacts-list li {
+	padding: 8px 0;
+}
+
+.contacts-list a {
+	margin-left: 10px;
+}
+
+.contacts-list__icon {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-right: 15px;
+	background-size: 32px 32px;
+	vertical-align: middle;
 }
 
 footer {
