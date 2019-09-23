@@ -9,6 +9,11 @@ html, body, h1, h2, h3, p {
 	padding: 0;
 }
 
+body {
+	min-width: 320px;
+	font-size: 16px;
+}
+
 
 * {
 	box-sizing: border-box;
@@ -26,10 +31,6 @@ a {
 
 a:visited, a:active {
 	color: var(--link-secondary-color);
-}
-
-p {
-	margin: 20px 0;
 }
 
 .container {
@@ -88,12 +89,29 @@ header .hero-text__occupation {
 	font-weight: 500;
 }
 
-.section {
-	padding: 50px 0;
+main p {
+	margin: 20px 0;
 }
 
-.section:nth-child(2n) {
+
+.section-row:nth-child(2n) {
 	background-color: #EEE;
+}
+
+.section-row .container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.section-row .section {
+	width: 50%;
+}
+
+.section {
+	padding: 50px 0;
 }
 
 .section-title {
@@ -130,6 +148,10 @@ header .hero-text__occupation {
 	vertical-align: middle;
 }
 
+.about {
+	background-color: #EEE;
+}
+
 footer {
 	padding: 40px 0;
 	background-color: var(--primary-color);
@@ -138,8 +160,14 @@ footer {
 }
 
 
-@media (max-width: 565px) {
+@media (min-width: 992px) and (max-width: 1200px) {
 	.container {
-		max-width: 95%;
+		max-width: 85%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.container {
+		max-width: 80%;
 	}
 }
