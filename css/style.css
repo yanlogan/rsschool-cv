@@ -1,3 +1,7 @@
+:root {
+	--primary-color: #3B3B3B;
+}
+
 html, body, h1, h2, p {
 	margin: 0;
 	padding: 0;
@@ -64,7 +68,7 @@ header .hero-text__occupation {
 
 footer {
 	padding: 40px 0;
-	background-color: #3B3B3B;
+	background-color: var(--primary-color);
 	color: #FFF;
 	text-align: center;
 }
