@@ -2,7 +2,7 @@
 	--primary-color: #3b3b3b;
 	--secondary-color: #eeeeee;
 	--link-color: #20ac64;
-	--link-secondary-color: #8643b4;
+	--link-secondary-color: #13693c;
 }
 
 html, body, h1, h2, h3, p {
@@ -25,12 +25,14 @@ ul {
 	line-height: 1.75em;
 }
 
-a {
+a,
+a:visited {
 	color: var(--link-color);
 	text-decoration: none;
 }
 
-a:visited, a:active {
+a:hover,
+a:active {
 	color: var(--link-secondary-color);
 }
 
