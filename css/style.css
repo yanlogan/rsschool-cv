@@ -1,5 +1,7 @@
 :root {
 	--primary-color: #3B3B3B;
+	--link-color: #20AC64;
+	--link-secondary-color: #8643B4;
 }
 
 html, body, h1, h2, p {
