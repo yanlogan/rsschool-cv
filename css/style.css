@@ -14,6 +14,11 @@ html, body, h1, h2, p {
 	box-sizing: border-box;
 }
 
+ul {
+	padding: 0 20px;
+	line-height: 1.75em;
+}
+
 a {
 	text-decoration: none;
 	color: var(--link-color);
@@ -96,7 +101,6 @@ header .hero-text__occupation {
 .contacts-list {
 	padding: 0;
 	list-style: none;
-	line-height: 1.75em;
 }
 
 .contacts-list li {
