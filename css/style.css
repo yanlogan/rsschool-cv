@@ -4,7 +4,7 @@
 	--link-secondary-color: #8643B4;
 }
 
-html, body, h1, h2, p {
+html, body, h1, h2, h3, p {
 	margin: 0;
 	padding: 0;
 }
@@ -26,6 +26,10 @@ a {
 
 a:visited, a:active {
 	color: var(--link-secondary-color);
+}
+
+p {
+	margin: 20px 0;
 }
 
 .container {
@@ -118,10 +122,6 @@ header .hero-text__occupation {
 	margin-right: 15px;
 	background-size: 32px 32px;
 	vertical-align: middle;
-}
-
-.about-text p {
-	margin: 20px 0;
 }
 
 footer {
