@@ -102,6 +102,12 @@ header .hero-text__occupation {
 	color: var(--primary-color);
 }
 
+.section-subtitle {
+	margin-bottom: 15px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
 .contacts-list {
 	padding: 0;
 	list-style: none;
