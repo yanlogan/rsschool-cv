@@ -116,6 +116,10 @@ header .hero-text__occupation {
 	vertical-align: middle;
 }
 
+.about-text p {
+	margin: 20px 0;
+}
+
 footer {
 	padding: 40px 0;
 	background-color: var(--primary-color);
